@@ -1,0 +1,41 @@
+/* App.css */
+
+/* Task 3: Background image implementation for the landing page */
+.landing-page {
+    background-image: url('https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?q=80&w=2070&auto=format&fit=crop'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+/* Styling for the content over the background */
+.landing-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a dark overlay for text readability */
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.get-started-button {
+    background-color: #4CAF50; /* Nursery Green */
+    color: white;
+    padding: 15px 32px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+.get-started-button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
